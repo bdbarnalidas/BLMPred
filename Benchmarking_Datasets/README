@@ -1,0 +1,12 @@
+1)  BLMPred_benchmark_pos.csv -> Benchmarking dataset of epitopes. [peptide sequence].
+2)  BLMPred_benchmark_neg.csv -> Benchmarking dataset of non-epitopes. [peptide sequence].
+3)  Benchmark_5to60_pos.csv -> Benchmarking dataset of epitopes of length 5-60. [peptide sequence].
+4)  Benchmark_5to60_neg.csv -> Benchmarking dataset of non-epitopes of length 5-60. [peptide sequence].
+5)  Benchmark_8to25_pos.csv -> Benchmarking dataset of epitopes of length 8-25. [peptide sequence].
+6)  Benchmark_8to25_neg.csv -> Benchmarking dataset of non-epitopes of length 8-25. [peptide sequence].
+7)  Benchmark_7to60_pos.csv -> Benchmarking dataset of epitopes of length 7-60. [peptide sequence].
+8)  Benchmark_7to60_neg.csv -> Benchmarking dataset of non-epitopes of length 7-60. [peptide sequence].
+9)  Benchmark_20_pos.csv -> Benchmarking dataset of epitopes of length 20. [peptide sequence].
+10) Benchmark_20_neg.csv -> Benchmarking dataset of non-epitopes of length 20. [peptide sequence].
+11) Benchmark_6to15_pos.csv -> Benchmarking dataset of epitopes of length 6-15. [peptide sequence].
+12) Benchmark_6to15_neg.csv -> Benchmarking dataset of non-epitopes of length 6-15. [peptide sequence].
