@@ -2,3 +2,4 @@
 2) BLMPred_5to60_pos.csv -> Epitopes of length 5-60. [peptide length, peptide sequence].
 3) BLMPred_8to25_neg.csv -> Non-epitopes of length 8-25. [peptide length, peptide sequence].
 4) BLMPred_8to25_pos.csv -> Epitopes of length 8-25. [peptide length, peptide sequence].
+5) BLMPred_5to60_pos_test.csv -> Test dataset of epitopes of length 5-60. [peptide length, peptide sequence].
