@@ -1,5 +1,5 @@
-input_file = '../Benchmarking_Datasets/Benchmark_20_pos.csv' # Specify the input file path
-output_file = 'Benchmark_20_pos.fasta' # Specify the output file path
+input_file = '../Benchmarking_Datasets/Benchmark_20_neg.csv' # Specify the input file path
+output_file = 'Benchmark_20_neg.fasta' # Specify the output file path
 
 fp_write = open(output_file,'w')
 
