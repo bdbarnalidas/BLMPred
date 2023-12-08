@@ -5,7 +5,7 @@
 
 # Replace this file with your own (multi-)FASTA
 # Headers are expected to start with ">";
-seq_path = "Benchmark_20_pos.fasta"         # Specify the input file path
+seq_path = "Benchmark_20_neg.fasta"         # Specify the input file path
 
 # whether to retrieve embeddings for each residue in a protein 
 # --> Lx1024 matrix per protein with L being the protein's length
@@ -16,7 +16,7 @@ per_residue_path = "Benchmark_20_pos.h5" # where to store the embeddings
 # whether to retrieve per-protein embeddings 
 # --> only one 1024-d vector per protein, irrespective of its length
 per_protein = True
-per_protein_path = "Benchmark_20_pos.h5" # where to store the embeddings     # Specify the output file path
+per_protein_path = "Benchmark_20_neg.h5" # where to store the embeddings     # Specify the output file path
 
 # whether to retrieve secondary structure predictions
 # This can be replaced by your method after being trained on ProtT5 embeddings
