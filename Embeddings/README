@@ -9,7 +9,7 @@
     3.2) 2nd user-input -> Output file path on line 19.
 
 4) 3_merge_embeddings.py -> Merge epitope embeddings and non-epitope embeddings into a single numpy array.
-                            Also converts .h5 file to .npy file (binary data to numpy array requires for ML in next step).
+                            Also converts .h5 file to .npy file (binary data to numpy array required for ML in next step).
     3.1) 1st user-input -> Filename with epitope embeddings on line 5.
     3.2) 2nd user-input -> Filename with non-epitope embeddings on line 6.
     3.3) 3rd user-input -> Output file name on line 7.
