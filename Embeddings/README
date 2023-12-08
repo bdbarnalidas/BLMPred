@@ -7,4 +7,11 @@
 3) 2_create_embeddings.py -> Generate ProtTrans embeddings in a binary file (.h5 file).
     3.1) 1st user-input -> Input file path on line 8.
     3.2) 2nd user-input -> Output file path on line 19.
-                    
+
+4) 3_merge_embeddings.py -> Merge epitope embeddings and non-epitope embeddings into a single numpy array.
+                            Also converts .h5 file to .npy file (binary data to numpy array requires for ML in next step).
+    3.1) 1st user-input -> Filename with epitope embeddings on line 5.
+    3.2) 2nd user-input -> Filename with non-epitope embeddings on line 6.
+    3.3) 3rd user-input -> Output file name on line 7.
+    3.4) 4th user-input -> Specify number of epitopes on line 9.
+    3.5) 5th user-input -> Specify number of non-epitopes on line 10.               
