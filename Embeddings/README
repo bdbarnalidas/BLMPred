@@ -1,0 +1,10 @@
+1) protT5 -> ProtT5-XL-UniRef50 (also ProtT5-XL-U50) model of ProtTrans embedder downloaded from Rostlab (https://github.com/Rostlab/ProtTrans).
+
+2) 1_csv_to_fasta.py -> Converts csv file to fasta format which is needed by the embedder.
+    2.1) 1st user-input -> Input file path on line 1.
+    2.2) 2nd user-input -> Output file path on line 2.
+
+3) 2_create_embeddings.py -> Generate ProtTrans embeddings in a binary file (.h5 file).
+    3.1) 1st user-input -> Input file path on line 8.
+    3.2) 2nd user-input -> Output file path on line 19.
+                    
