@@ -1,8 +1,12 @@
-1) BLMPred_5to60_neg.csv -> Non-epitopes of length 5-60. [peptide length, peptide sequence].
-2) BLMPred_5to60_pos.csv -> Epitopes of length 5-60. [peptide length, peptide sequence].
-3) BLMPred_8to25_neg.csv -> Non-epitopes of length 8-25. [peptide length, peptide sequence].
-4) BLMPred_8to25_pos.csv -> Epitopes of length 8-25. [peptide length, peptide sequence].
-5) BLMPred_5to60_pos_test.csv -> Test dataset of epitopes of length 5-60. [peptide length, peptide sequence].
-6) BLMPred_5to60_pos_train.csv -> Training dataset of epitopes of length 5-60. [peptide length, peptide sequence].
-7) BLMPred_5to60_neg_test.csv -> Test dataset of non-epitopes of length 5-60. [peptide length, peptide sequence].
-8) BLMPred_5to60_neg_train.csv -> Training dataset of non-epitopes of length 5-60. [peptide length, peptide sequence].
+1)  BLMPred_5to60_neg.csv -> Non-epitopes of length 5-60. [peptide length, peptide sequence].
+2)  BLMPred_5to60_pos.csv -> Epitopes of length 5-60. [peptide length, peptide sequence].
+3)  BLMPred_8to25_neg.csv -> Non-epitopes of length 8-25. [peptide length, peptide sequence].
+4)  BLMPred_8to25_pos.csv -> Epitopes of length 8-25. [peptide length, peptide sequence].
+5)  BLMPred_5to60_pos_test.csv -> Test dataset of epitopes of length 5-60. [peptide length, peptide sequence].
+6)  BLMPred_5to60_pos_train.csv -> Training dataset of epitopes of length 5-60. [peptide length, peptide sequence].
+7)  BLMPred_5to60_neg_test.csv -> Test dataset of non-epitopes of length 5-60. [peptide length, peptide sequence].
+8)  BLMPred_5to60_neg_train.csv -> Training dataset of non-epitopes of length 5-60. [peptide length, peptide sequence].
+9)  BLMPred_8to25_pos_test.csv -> Test dataset of epitopes of length 8-25. [peptide length, peptide sequence].
+10) BLMPred_8to25_pos_train.csv -> Training dataset of epitopes of length 8-25. [peptide length, peptide sequence].
+11) BLMPred_8to25_neg_test.csv -> Test dataset of non-epitopes of length 8-25. [peptide length, peptide sequence].
+12) BLMPred_8to25_neg_train.csv -> Training dataset of non-epitopes of length 8-25. [peptide length, peptide sequence].
