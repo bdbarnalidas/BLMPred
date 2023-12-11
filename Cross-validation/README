@@ -24,3 +24,5 @@ After downloading these embeddings, please unzip them by using the following com
 14) lda_8to25.py -> Linear discriminant analysis 10-fold cross-validation for BLMPred_8to25 dataset.
 15) lr_5to60.py -> Logistic regression 10-fold cross-validation for BLMPred_5to60 dataset.
 16) lr_8to25.py -> Logistic regression 10-fold cross-validation for BLMPred_8to25 dataset.
+17) mlp_5to60.py -> Multi-layer perceptron 10-fold cross-validation for BLMPred_5to60 dataset.
+18) mlp_8to25.py -> Multi-layer perceptron 10-fold cross-validation for BLMPred_8to25 dataset.
