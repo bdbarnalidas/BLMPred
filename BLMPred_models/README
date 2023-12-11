@@ -1,0 +1,9 @@
+Please download the trained BLMPred models from the following:
+    a) blmpred_5to60.sav.gz -> Trained BLMPred_5to60 model from the link 
+    https://drive.google.com/file/d/14_rVBkX3GBjEm31NZVrhkocw1PBnN8s8/view?usp=share_link
+    b) blmpred_8to25.sav.gz -> Trained BLMPred_8to25 model from the link 
+    https://drive.google.com/file/d/1dMES36vgPx4IGVbubdTIc2dxMD0R7NoE/view?usp=share_link
+
+After downloading these models, please unzip them by using the following commands:
+    a) gunzip blmpred_5to60.sav.gz
+    b) gunzip blmpred_8to25.sav.gz

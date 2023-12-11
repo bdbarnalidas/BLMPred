@@ -1,12 +1,12 @@
 For executing the cross-validation scripts, please download the following:
-    a) blmpred_5to60.npy.gz -> Pre-generated ProtTrans embeddings for BLMPred_5to60 dataset from the link 
+    a) blmpred5to60.npy.gz -> Pre-generated ProtTrans embeddings for BLMPred_5to60 dataset from the link 
     https://drive.google.com/file/d/18QQJyNyxisQWPItd559iTRo9q-PexJn0/view?usp=share_link
-    b) blmpred_8to25.npy.gz -> Pre-generated ProtTrans embeddings for BLMPred_8to25 dataset from the link
+    b) blmpred8to25.npy.gz -> Pre-generated ProtTrans embeddings for BLMPred_8to25 dataset from the link
     https://drive.google.com/file/d/1cGBG1ikeStQiz_79NysnCpxg7D7fgTR9/view?usp=share_link
 
 After downloading these embeddings, please unzip them by using the following commands:
-    a) gunzip blmpred_5to60.npy.gz
-    b) gunzip blmpred_8to25.npy.gz
+    a) gunzip blmpred5to60.npy.gz
+    b) gunzip blmpred8to25.npy.gz
 
 ** Please note that GPU along with recent CUDA version and NVIDIA driver pairs are needed to execute k-nearest neighbors, random forest, and support 
 vector machine from RAPIDS package. 
