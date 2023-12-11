@@ -20,3 +20,5 @@ After downloading these embeddings, please unzip them by using the following com
 10) hbgb_8to25.py -> Histogram-based gradient boosting classifier 10-fold cross-validation for BLMPred_8to25 dataset.
 11) knn_5to60.py -> K-nearest neighbours 10-fold cross-validation for BLMPred_5to60 dataset.
 12) knn_8to25.py -> K-nearest neighbours 10-fold cross-validation for BLMPred_8to25 dataset.
+13) lda_5to60.py -> Linear discriminant analysis 10-fold cross-validation for BLMPred_5to60 dataset.
+14) lda_8to25.py -> Linear discriminant analysis 10-fold cross-validation for BLMPred_8to25 dataset.
