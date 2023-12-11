@@ -8,6 +8,10 @@ After downloading these embeddings, please unzip them by using the following com
     a) gunzip blmpred_5to60.npy.gz
     b) gunzip blmpred_8to25.npy.gz
 
+**Please note that GPU along with recent CUDA version and NVIDIA driver pairs are needed to execute k-nearest neighbors, random forest, and support 
+vector machine from RAPIDS package. Please use Conda environment 'rapids-22.08' for executing KNN, RF, and SVM with RAPIDS. Please use Conda
+environment 'blmpred' for rest.
+
 1)  adb_5to60.py -> Adaboost classifier 10-fold cross-validation for BLMPred_5to60 dataset.
 2)  adb_8to25.py -> Adaboost classifier 10-fold cross-validation for BLMPred_8to25 dataset.
 3)  bc_5to60.py -> Bagging classifier 10-fold cross-validation for BLMPred_5to60 dataset.
@@ -34,3 +38,5 @@ After downloading these embeddings, please unzip them by using the following com
 24) xgb_8to25.py -> XGBoost classifier 10-fold cross-validation for BLMPred_8to25 dataset.
 25) ebc_5to60.py -> Explainable boosting classifier 10-fold cross-validation for BLMPred_5to60 dataset.
 26) ebc_8to25.py -> Explainable boosting classifier 10-fold cross-validation for BLMPred_8to25 dataset.
+27) svm_5to60.py -> Support vector machine 10-fold cross-validation for BLMPred_5to60 dataset.
+28) svm_8to25.py -> Support vector machine 10-fold cross-validation for BLMPred_8to25 dataset.
