@@ -30,3 +30,5 @@ After downloading these embeddings, please unzip them by using the following com
 20) qda_8to25.py -> Quadratic discriminant analysis 10-fold cross-validation for BLMPred_8to25 dataset.
 21) rf_5to60.py -> Random forest 10-fold cross-validation for BLMPred_5to60 dataset.
 22) rf_8to25.py -> Random forest 10-fold cross-validation for BLMPred_8to25 dataset.
+23) xgb_5to60.py -> XGBoost classifier 10-fold cross-validation for BLMPred_5to60 dataset.
+24) xgb_8to25.py -> XGBoost classifier 10-fold cross-validation for BLMPred_8to25 dataset.
