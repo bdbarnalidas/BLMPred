@@ -32,3 +32,5 @@ After downloading these embeddings, please unzip them by using the following com
 22) rf_8to25.py -> Random forest 10-fold cross-validation for BLMPred_8to25 dataset.
 23) xgb_5to60.py -> XGBoost classifier 10-fold cross-validation for BLMPred_5to60 dataset.
 24) xgb_8to25.py -> XGBoost classifier 10-fold cross-validation for BLMPred_8to25 dataset.
+25) ebc_5to60.py -> Explainable boosting classifier 10-fold cross-validation for BLMPred_5to60 dataset.
+26) ebc_8to25.py -> Explainable boosting classifier 10-fold cross-validation for BLMPred_8to25 dataset.
