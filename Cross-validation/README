@@ -16,3 +16,5 @@ After downloading these embeddings, please unzip them by using the following com
 6)  etc_8to25.py -> Extra trees classifier 10-fold cross-validation for BLMPred_8to25 dataset.
 7)  gnb_5to60.py -> Gaussian Naive Bayes 10-fold cross-validation for BLMPred_5to60 dataset.
 8)  gnb_8to25.py -> Gaussian Naive Bayes 10-fold cross-validation for BLMPred_8to25 dataset.
+9)  hbgb_5to60.py -> Histogram-based gradient boosting classifier 10-fold cross-validation for BLMPred_5to60 dataset.
+10) hbgb_8to25.py -> Histogram-based gradient boosting classifier 10-fold cross-validation for BLMPred_8to25 dataset.
