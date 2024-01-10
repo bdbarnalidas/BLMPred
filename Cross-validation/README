@@ -10,7 +10,7 @@ After downloading these embeddings, please unzip them by using the following com
 
 ** Please note that GPU along with recent CUDA version and NVIDIA driver pairs are needed to execute k-nearest neighbors, random forest, and support 
 vector machine from RAPIDS package. 
-Please use Conda environment 'rapids-22.08' for executing KNN, RF, and SVM with RAPIDS. 
+Please use Conda environment 'rapids' for executing KNN, RF, and SVM with RAPIDS. 
 Please use Conda environment 'blmpred' for rest.
 
 1)  adb_5to60.py -> Adaboost classifier 10-fold cross-validation for BLMPred_5to60 dataset.

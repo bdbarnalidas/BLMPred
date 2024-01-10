@@ -9,7 +9,7 @@ After downloading these embeddings, please unzip them by using the following com
     b) gunzip blmpred8to25.npy.gz
 
 ** Please note that GPU along with recent CUDA version and NVIDIA driver pairs are needed to execute the model training scripts.
-Please use Conda environment 'rapids-22.08' for executing SVM with RAPIDS. 
+Please use Conda environment 'rapids' for executing SVM with RAPIDS. 
 
 1) blmpred_5to60.py -> Script for training support vector machine on BLMPred_5to60 dataset.
 2) blmpred_8to25.py -> Script for training support vector machine on BLMPred_8to25 dataset.

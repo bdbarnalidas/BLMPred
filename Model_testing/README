@@ -15,7 +15,7 @@ After downloading the models and the embeddings, please unzip them by using the 
     d) gunzip blmpred_8to25.sav.gzs
 
 ** Please note that GPU along with recent CUDA version and NVIDIA driver pairs are needed to execute the model testing scripts.
-Please use Conda environment 'rapids-22.08' for executing the scripts with RAPIDS package. 
+Please use Conda environment 'rapids' for executing the scripts with RAPIDS package. 
 
 1) blmpred_5to60.py -> Script for testing BLMPred_5to60 model on the independent BLMPred_5to60_test dataset. This script will generate the performance metrics and the confusion matrix as output.
 
