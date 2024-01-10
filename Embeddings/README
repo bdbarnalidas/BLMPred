@@ -14,4 +14,11 @@
     3.2) 2nd user-input -> Filename with non-epitope embeddings on line 6.
     3.3) 3rd user-input -> Output file name on line 7.
     3.4) 4th user-input -> Specify number of epitopes on line 9.
-    3.5) 5th user-input -> Specify number of non-epitopes on line 10.               
+    3.5) 5th user-input -> Specify number of non-epitopes on line 10.   
+
+5) 4_process_embeddings.py -> This script is needed when the input dataset is a list of peptides and we have no information on which are epitopes or not.
+                              This script will mainly convert .h5 file to .npy file (binary data to numpy array required for ML). 
+    5.1) 1st user-input -> Filename with embeddings on line 5.
+    5.2) 2nd user-input -> Output file name on line 6.
+    5.3) 3rd user-input -> Output file name storing peptide identifiers on line 7. 
+    5.4) 4th user-input -> Specify number of peptides on line 9.       
