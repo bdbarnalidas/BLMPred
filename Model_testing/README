@@ -24,6 +24,6 @@ Please use Conda environment 'rapids-22.08' for executing the scripts with RAPID
 If the users want to make predictions on their own dataset, then please follow the steps below:
 1) Place your data in a .csv file following the format of [peptide length, peptide sequence].
 2) Go to 'Embeddings' folder and execute 1_csv_to_fasta.py, 2_create_embeddings.py, and 4_process_embeddings.py.
-3) Execute make_predictions.py for generating predictions on your dataset which will be stored in a file 'predictions.csv'.
+3) Execute make_predictions.py for generating predictions on your dataset which will be stored in a file 'predictions.csv' [peptide id, Epitope/Non-epitope].
     3.1) 1st user-input -> Filename storing embeddings on line 5.
     3.2) 2nd user-input -> Load either BLMPred_5to60 or BLMPred_8to25 model on line 8.
