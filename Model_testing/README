@@ -1,0 +1,24 @@
+For executing the model testing scripts, please download the following:
+    a) blmpred5to60.npy.gz -> Pre-generated ProtTrans embeddings for BLMPred_5to60 dataset from the link 
+    https://drive.google.com/file/d/18QQJyNyxisQWPItd559iTRo9q-PexJn0/view?usp=share_link
+    b) blmpred8to25.npy.gz -> Pre-generated ProtTrans embeddings for BLMPred_8to25 dataset from the link
+    https://drive.google.com/file/d/1cGBG1ikeStQiz_79NysnCpxg7D7fgTR9/view?usp=share_link
+    c) blmpred_5to60.sav.gz -> Trained BLMPred_5to60 model from the link
+    https://drive.google.com/file/d/14_rVBkX3GBjEm31NZVrhkocw1PBnN8s8/view?usp=sharing
+    d) blmpred_8to25.sav.gz -> Trained BLMPred_8to25 model from the link
+    https://drive.google.com/file/d/1dMES36vgPx4IGVbubdTIc2dxMD0R7NoE/view?usp=sharing
+
+After downloading the models and the embeddings, please unzip them by using the following commands:
+    a) gunzip blmpred5to60.npy.gz
+    b) gunzip blmpred8to25.npy.gz
+    c) gunzip blmpred_5to60.sav.gz
+    d) gunzip blmpred_8to25.sav.gzs
+
+** Please note that GPU along with recent CUDA version and NVIDIA driver pairs are needed to execute the model testing scripts.
+Please use Conda environment 'rapids-22.08' for executing the scripts with RAPIDS package. 
+
+1) blmpred_5to60.py -> Script for testing BLMPred_5to60 model on the independent BLMPred_5to60_test dataset. This script will generate the 
+                       performance metrics and the confusion matrix as output.
+
+2) blmpred_8to25.py -> Script for testing BLMPred_8to25 model on the independent BLMPred_8to25_test dataset. This script will generate the 
+                       performance metrics and the confusion matrix as output.
