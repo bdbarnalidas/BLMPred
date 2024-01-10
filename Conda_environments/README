@@ -1,0 +1,12 @@
+Here we provided the Conda environments needed for executing the scripts.
+
+1) rapids.yml
+2) blmpred.yml
+
+Please use the following commands to download the Conda environments from their respective .yml files:
+1) conda env create --name rapids -f rapids.yml
+2) conda env create --name blmpred -f blmpred.yml
+
+You can use the following command to check out the list of packages installed in the Conda environments:
+conda list
+    
