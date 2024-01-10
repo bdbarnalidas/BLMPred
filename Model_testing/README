@@ -1,3 +1,5 @@
+*********************** Testing model on independent datasets ****************************************
+
 For executing the model testing scripts, please download the following:
     a) blmpred5to60.npy.gz -> Pre-generated ProtTrans embeddings for BLMPred_5to60 dataset from the link 
     https://drive.google.com/file/d/18QQJyNyxisQWPItd559iTRo9q-PexJn0/view?usp=share_link
@@ -20,6 +22,8 @@ Please use Conda environment 'rapids' for executing the scripts with RAPIDS pack
 1) blmpred_5to60.py -> Script for testing BLMPred_5to60 model on the independent BLMPred_5to60_test dataset. This script will generate the performance metrics and the confusion matrix as output.
 
 2) blmpred_8to25.py -> Script for testing BLMPred_8to25 model on the independent BLMPred_8to25_test dataset. This script will generate the performance metrics and the confusion matrix as output.
+
+*********************** Testing model on user-provided datasets ****************************************
 
 If the users want to make predictions on their own dataset, then please follow the steps below:
 1) Place your data in a .csv file following the format of [peptide length, peptide sequence].
